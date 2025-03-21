@@ -84,21 +84,6 @@ something as pedantic as a name. */
     top: 140px;
     left: 240px;
 }
-/* Since the player indicator is just a CSS sprite, we change the 
-position of the background to match the player number.
-NOTE: Player orderin starts at 0, so p0 = Player 1 */
-.custom .p0{
-    background-position: 0 -6px;
-}
-.custom .p1{
-    background-position: 0 -28px;
-}
-.custom .p2{
-    background-position: 0 -49px;
-}
-.custom .p3{
-    background-position: 0 -70px;
-}
 /* This is to size and position the containing div for the 
 start and select buttons. */
 .custom .arrows{
@@ -345,21 +330,6 @@ an opacity setting */
     color: white;
 }
 
-.fight-stick .p0:after {
-    content: "Player 1";
-}
-
-.fight-stick .p1:after {
-    content: "Player 2";
-}
-
-.fight-stick .p2:after {
-    content: "Player 3";
-}
-
-.fight-stick .p3:after {
-    content: "Player 4";
-}
 
 .fight-stick .arrows {
     position: absolute;
