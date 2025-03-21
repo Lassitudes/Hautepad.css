@@ -76,14 +76,7 @@ placement */
 quandrants on the xbox controller. That's note what it's called on the
 PS3 controller but it'd be pointless for me to change the HTML for 
 something as pedantic as a name. */
-.custom .quadrant{
-    position: absolute;
-    background: url(ps3-assets/player-n.png);
-    height: 17px;
-    width: 111px;
-    top: 140px;
-    left: 240px;
-}
+
 /* This is to size and position the containing div for the 
 start and select buttons. */
 .custom .arrows{
