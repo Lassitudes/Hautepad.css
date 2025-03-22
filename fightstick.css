@@ -37,14 +37,6 @@ above to achieve the desired position. */
     float: right;
 }
 
-/* The bumpers follow the same methodology as the triggers in terms of
-placement */
-.custom .bumper{
-    width: 89px;
-    height: 28px;
-    background: url(ps3-assets/bumpers.png);
-    opacity: 0;
-}
 .custom .bumpers{
     position: absolute;
     width: 586px;
@@ -81,40 +73,7 @@ start and select buttons. */
     top: 250px;
     left: 291px;
 }
-/* Setting the size and CSS sprite for the start adn select buttons */
-.custom .back, .custom .start{
-    background: url(ps3-assets/menus.png);
-    width: 34px;
-    height: 19px;
-}
-.custom .back.pressed, .custom .start.pressed{
-    background-position-y: -21px;
-    margin-top: 2px;
-}
-.custom .back{
-    float: left;
-    width: 38px;
-}
-.custom .start{
-    float: right;
-    width: 36px;
-    background-position: 37px 0;
-}
-/* Positioning and size of the container for the face buttons */
-.custom .abxy{
-    position: absolute;
-    width: 204px;
-    height: 205px;
-    top: 156px;
-    left: 538px;
-}
-/* base class used to simplify the sprite mapping */
-.custom .button{
-    position: absolute;
-    width:62px;
-    height:62px;
-    background: url(ps3-assets/face-buttons.png);
-}
+
 .custom .button.pressed{
     background-position-y: -64px;
     margin-top: 5px;
